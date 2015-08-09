@@ -1,0 +1,19 @@
+<!DOCTYPE HTML><html lang="en-US"><head><meta charset="UTF-8">
+<script type="text/javascript">var sw_targ=true; var ff_targ=''; var qs = querySt('t'); 
+switch(qs) {<!-- v=1 is for future proofing -->
+          <!-- http://bit.ly/tstone http://tst247.github.io/rd/rd.htm?t=ts01&v=1 -->
+          case 'ts01'   :ff_targ='talstone.htm';  ff_targ_text='Tal Stone';  break; 
+          <!-- http://bit.ly/tsphoto http://tst247.github.io/rd/rd.htm?t=tsph&v=1 -->
+          case 'tsph'   :ff_targ='tsphoto.htm';   ff_targ_text='Tal Photo';  break; 
+<!-- end of list -->
+default:sw_targ=false;break;
+}
+if (sw_targ==true) {window.location.href=ff_targ; document.write('<meta http-equiv="refresh" content="1;
+                    url='+ff_targ+'"><title>'+ff_targ_text+'</title>'); }
+else               {document.write('There may have been an error - no action possible');}
+
+function querySt(Key) {var url = window.location.href; KeysValues = url.split(/[\?&]+/);
+for (i = 0; i < KeysValues.length; i++) {KeyValue = KeysValues[i].split("="); 
+                                                    if (KeyValue[0] == Key) {return KeyValue[1];}}}
+</script></head>
+<body></body></html>
