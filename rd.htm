@@ -11,8 +11,7 @@ switch(qs) {<!-- v=1 is for future proofing -->
 default:sw_targ=false;break;
 }
 
-if (sw_targ==true) {window.location.href=ff_targ; document.write('<meta http-equiv="refresh" content="1;
-                    url='+ff_targ+'"><title>'+ff_targ_text+'</title>'); }
+if (sw_targ==true) {window.location.href=ff_targ; document.write('<meta http-equiv="refresh" content="1;url='+ff_targ+'"><title>'+ff_targ_text+'</title>'); }
 else               {document.write('There may have been an error - no action possible');}
 <!-- functions go here -->
 function szquerySt(Key) {var url = window.location.href; KeysValues = url.split(/[\?&]+/);
